@@ -1,5 +1,5 @@
 This is to test the branch operation.
 
-This is to test the merge operation.
+<<<<<<< HEAD
+This is how to say to test old and new.
 
-hhh
