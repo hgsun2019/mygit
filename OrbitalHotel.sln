@@ -1,0 +1,213 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices", "{D79FBCC7-5E6C-46C1-B273-946FE10BE133}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSites", "WebSites", "{46723ACE-96A3-42CA-9A95-D57ED9EEC40B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{610EF912-0801-4891-A616-79DD10230B15}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "Core\BusinessLogic\BusinessLogic.csproj", "{A10BDF6D-C0AE-4F83-9369-3FD601793C8C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Core\Common\Common.csproj", "{7609DEBF-ECB3-4574-818F-1E9417796F6F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "Core\DataAccess\DataAccess.csproj", "{51228F87-3964-4579-9B26-1317EDD76D8E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\ReservationService\", "WebServices\ReservationService", "{C886CDD0-FA3E-4D50-9540-D4698BC66F23}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		ProjectReferences = "{A10BDF6D-C0AE-4F83-9369-3FD601793C8C}|OrbitalHotel.BusinessLogic.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ReservationService"
+		Debug.AspNetCompiler.PhysicalPath = "WebServices\ReservationService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ReservationService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ReservationService"
+		Release.AspNetCompiler.PhysicalPath = "WebServices\ReservationService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ReservationService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1111"
+		VWDDynamicPort = "false"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\WebReservation\", "WebSites\WebReservation", "{313CBF03-92E8-4860-B932-91214CE1FDBF}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		ProjectReferences = ""
+		Debug.AspNetCompiler.VirtualPath = "/WebReservation"
+		Debug.AspNetCompiler.PhysicalPath = "WebSites\WebReservation\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebReservation\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebReservation"
+		Release.AspNetCompiler.PhysicalPath = "WebSites\WebReservation\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebReservation\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1112"
+		VWDDynamicPort = "false"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50AD8023-4FB5-4DCD-A3F9-401E7DEBB92E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		OrbitalHotel.snk = OrbitalHotel.snk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{D5A2CB36-7BE5-411E-8741-106234179E93}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		OrbitalHotel Database.sql = OrbitalHotel Database.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A10BDF6D-C0AE-4F83-9369-3FD601793C8C}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{A10BDF6D-C0AE-4F83-9369-3FD601793C8C}.Debug|.NET.Build.0 = Debug|Any CPU
+		{A10BDF6D-C0AE-4F83-9369-3FD601793C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10BDF6D-C0AE-4F83-9369-3FD601793C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10BDF6D-C0AE-4F83-9369-3FD601793C8C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A10BDF6D-C0AE-4F83-9369-3FD601793C8C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A10BDF6D-C0AE-4F83-9369-3FD601793C8C}.Release|.NET.ActiveCfg = Release|Any CPU
+		{A10BDF6D-C0AE-4F83-9369-3FD601793C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10BDF6D-C0AE-4F83-9369-3FD601793C8C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A10BDF6D-C0AE-4F83-9369-3FD601793C8C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7609DEBF-ECB3-4574-818F-1E9417796F6F}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{7609DEBF-ECB3-4574-818F-1E9417796F6F}.Debug|.NET.Build.0 = Debug|Any CPU
+		{7609DEBF-ECB3-4574-818F-1E9417796F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7609DEBF-ECB3-4574-818F-1E9417796F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7609DEBF-ECB3-4574-818F-1E9417796F6F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7609DEBF-ECB3-4574-818F-1E9417796F6F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7609DEBF-ECB3-4574-818F-1E9417796F6F}.Release|.NET.ActiveCfg = Release|Any CPU
+		{7609DEBF-ECB3-4574-818F-1E9417796F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7609DEBF-ECB3-4574-818F-1E9417796F6F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7609DEBF-ECB3-4574-818F-1E9417796F6F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{51228F87-3964-4579-9B26-1317EDD76D8E}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{51228F87-3964-4579-9B26-1317EDD76D8E}.Debug|.NET.Build.0 = Debug|Any CPU
+		{51228F87-3964-4579-9B26-1317EDD76D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51228F87-3964-4579-9B26-1317EDD76D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51228F87-3964-4579-9B26-1317EDD76D8E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{51228F87-3964-4579-9B26-1317EDD76D8E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{51228F87-3964-4579-9B26-1317EDD76D8E}.Release|.NET.ActiveCfg = Release|Any CPU
+		{51228F87-3964-4579-9B26-1317EDD76D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51228F87-3964-4579-9B26-1317EDD76D8E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{51228F87-3964-4579-9B26-1317EDD76D8E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C886CDD0-FA3E-4D50-9540-D4698BC66F23}.Debug|.NET.ActiveCfg = Debug|.NET
+		{C886CDD0-FA3E-4D50-9540-D4698BC66F23}.Debug|.NET.Build.0 = Debug|.NET
+		{C886CDD0-FA3E-4D50-9540-D4698BC66F23}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{C886CDD0-FA3E-4D50-9540-D4698BC66F23}.Debug|Any CPU.Build.0 = Debug|.NET
+		{C886CDD0-FA3E-4D50-9540-D4698BC66F23}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{C886CDD0-FA3E-4D50-9540-D4698BC66F23}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{C886CDD0-FA3E-4D50-9540-D4698BC66F23}.Release|.NET.ActiveCfg = Debug|.NET
+		{C886CDD0-FA3E-4D50-9540-D4698BC66F23}.Release|.NET.Build.0 = Debug|.NET
+		{C886CDD0-FA3E-4D50-9540-D4698BC66F23}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{C886CDD0-FA3E-4D50-9540-D4698BC66F23}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{C886CDD0-FA3E-4D50-9540-D4698BC66F23}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{313CBF03-92E8-4860-B932-91214CE1FDBF}.Debug|.NET.ActiveCfg = Debug|.NET
+		{313CBF03-92E8-4860-B932-91214CE1FDBF}.Debug|.NET.Build.0 = Debug|.NET
+		{313CBF03-92E8-4860-B932-91214CE1FDBF}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{313CBF03-92E8-4860-B932-91214CE1FDBF}.Debug|Any CPU.Build.0 = Debug|.NET
+		{313CBF03-92E8-4860-B932-91214CE1FDBF}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{313CBF03-92E8-4860-B932-91214CE1FDBF}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{313CBF03-92E8-4860-B932-91214CE1FDBF}.Release|.NET.ActiveCfg = Debug|.NET
+		{313CBF03-92E8-4860-B932-91214CE1FDBF}.Release|.NET.Build.0 = Debug|.NET
+		{313CBF03-92E8-4860-B932-91214CE1FDBF}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{313CBF03-92E8-4860-B932-91214CE1FDBF}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{313CBF03-92E8-4860-B932-91214CE1FDBF}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C886CDD0-FA3E-4D50-9540-D4698BC66F23} = {D79FBCC7-5E6C-46C1-B273-946FE10BE133}
+		{313CBF03-92E8-4860-B932-91214CE1FDBF} = {46723ACE-96A3-42CA-9A95-D57ED9EEC40B}
+		{A10BDF6D-C0AE-4F83-9369-3FD601793C8C} = {610EF912-0801-4891-A616-79DD10230B15}
+		{7609DEBF-ECB3-4574-818F-1E9417796F6F} = {610EF912-0801-4891-A616-79DD10230B15}
+		{51228F87-3964-4579-9B26-1317EDD76D8E} = {610EF912-0801-4891-A616-79DD10230B15}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 12
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Core\\BusinessLogic\\BusinessLogic.csproj
+		SccProjectTopLevelParentUniqueName1 = OrbitalHotel.sln
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = Core\\BusinessLogic\\
+		SccProjectUniqueName2 = Core\\Common\\Common.csproj
+		SccProjectTopLevelParentUniqueName2 = OrbitalHotel.sln
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Core\\Common\\
+		SccProjectUniqueName3 = Core\\DataAccess\\DataAccess.csproj
+		SccProjectTopLevelParentUniqueName3 = OrbitalHotel.sln
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = Core\\DataAccess\\
+		SccWebProject4 = true
+		SccProjectUniqueName4 = WebServices\\ReservationService
+		SccProjectTopLevelParentUniqueName4 = OrbitalHotel.sln
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = WebServices\\ReservationService\\
+		SccProjectEnlistmentChoice4 = 2
+		SccWebProject5 = true
+		SccProjectUniqueName5 = WebSites\\WebReservation
+		SccProjectTopLevelParentUniqueName5 = OrbitalHotel.sln
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = WebSites\\WebReservation\\
+		SccProjectEnlistmentChoice5 = 2
+		SccProjectUniqueName6 = WindowsApplications\\WinReservation\\WinReservation.csproj
+		SccProjectTopLevelParentUniqueName6 = OrbitalHotel.sln
+	EndGlobalSection
+EndGlobal
