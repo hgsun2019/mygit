@@ -3,3 +3,5 @@ This is to test the GUI procedure.
 Test the usage of github desktop software.
 
 this is a test.
+
+this is a test for 软件配置.
